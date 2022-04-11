@@ -30,6 +30,17 @@
             <td>rish</td>
         </tr>
     </table>
+    <br>
+    <br>
+
+
+
+
+    <button style="background-color: yellow;" type="button" onclick="changeBodyBg('yellow');">Yellow</button>
+    <button  style="background-color: lime;" type="button" onclick="changeBodyBg('lime');">Lime</button>
+    <button style="background-color: orange;" type="button" onclick="changeBodyBg('orange');">Orange</button>
+    <button style="background-color: red;" type="button" onclick="changeBodyBg('red');">Orange</button>
+    <button style="background-color: blue;" type="button" onclick="changeBodyBg('blue');">Orange</button>
 
     <script>
         $(document).ready(function(){
@@ -49,6 +60,15 @@
                 $("body").css("background-color","brown")
             })
         })
+
+       
+        function changeBodyBg(color){
+        document.body.style.background = color;
+    }
+    
+        
+        
+
 
     </script>
     
